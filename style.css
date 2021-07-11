@@ -1,0 +1,66 @@
+body{
+ font-family: sans-serif;
+ margin: none;
+}
+.link{
+    width: 12%;
+    text-align: center;
+    background-color: rgb(168, 43, 226);
+    border-radius: 10px;
+    color: white;
+}
+.link:hover{
+    background-color: rgb(47, 130, 255);
+}
+table{
+    width: 100%;
+}
+table tr td{
+        height: 50px;
+}
+.banner img{
+    width: 1330px;
+    height: 740px;
+    border-radius: 20px;
+
+}
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    
+}
+.photo-frame{
+    width: 300px;
+    height: 350px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 2px;
+    overflow: hidden;
+
+}
+button{
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+}
+.photo-frame:hover .photo{
+    transform: scale(1.5);
+    transition: transform 1.5s ease-in-out;
+
+}
+.photo img{
+    width: 100%;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
